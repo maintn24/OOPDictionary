@@ -70,9 +70,14 @@ public class WordSortGame {
         showScore();
     }
 
-    public static void main(String[] args){
-        WordSortGame game = new WordSortGame();
-        game.generateWordList();
-        game.gameLoop();
+    //Muon test thi tao ham main roi goi start()
+    public void start() {
+        generateWordList();
+        gameLoop();
     }
+
+//    public static void main(String[] args) {
+//        WordSortGame game = new WordSortGame();
+//        game.start();
+//    }
 }
