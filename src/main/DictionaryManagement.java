@@ -5,10 +5,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class DictionaryManagement {
 
@@ -45,6 +42,12 @@ public class DictionaryManagement {
     /** tim tu */
     public void dictionaryLookUp(String target) {
          System.out.println(target + " : " + Dictionary.hashMap.get(target));
+    }
+
+    /** in tat ca tu khoa. */
+    public void printAll(){
+        Set<String> tapHopTuKhoa = Dictionary.hashMap.keySet();
+        System.out.println(Arrays.toString(tapHopTuKhoa.toArray()));
     }
 
 
