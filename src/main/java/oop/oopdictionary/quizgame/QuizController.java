@@ -107,8 +107,8 @@ public class QuizController {
 
     @FXML
     public void opt1clicked(ActionEvent event) {
-        checkAnswer(opt1.getText().toString());
-        if (checkAnswer(opt1.getText().toString())) {
+        checkAnswer(opt1.getText());
+        if (checkAnswer(opt1.getText())) {
             correct = correct + 1;
         } else {
             wrong = wrong + 1;
@@ -214,8 +214,8 @@ public class QuizController {
 
     @FXML
     public void opt2clicked(ActionEvent event) {
-        checkAnswer(opt2.getText().toString());
-        if (checkAnswer(opt2.getText().toString())) {
+        checkAnswer(opt2.getText());
+        if (checkAnswer(opt2.getText())) {
             correct = correct + 1;
         } else {
             wrong = wrong + 1;
@@ -243,8 +243,8 @@ public class QuizController {
 
     @FXML
     public void opt3clicked(ActionEvent event) {
-        checkAnswer(opt3.getText().toString());
-        if (checkAnswer(opt3.getText().toString())) {
+        checkAnswer(opt3.getText());
+        if (checkAnswer(opt3.getText())) {
             correct = correct + 1;
         } else {
             wrong = wrong + 1;
@@ -272,8 +272,8 @@ public class QuizController {
 
     @FXML
     public void opt4clicked(ActionEvent event) {
-        checkAnswer(opt4.getText().toString());
-        if (checkAnswer(opt4.getText().toString())) {
+        checkAnswer(opt4.getText());
+        if (checkAnswer(opt4.getText())) {
             correct = correct + 1;
         } else {
             wrong = wrong + 1;

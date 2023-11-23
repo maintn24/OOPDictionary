@@ -1,4 +1,4 @@
-package oop.oopdictionary;
+package oop.oopdictionary.wordsortgame;
 
 import java.util.*;
 

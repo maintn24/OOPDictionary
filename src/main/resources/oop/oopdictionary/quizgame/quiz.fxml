@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.wordquizgame.QuizController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" style="-fx-background-color: white; -fx-background-radius: 32px; -fx-border-radius: 32px;" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.quizgame.QuizController">
    <children>
       <Label fx:id="question" layoutX="43.0" layoutY="56.0" prefHeight="89.0" prefWidth="461.0" text="1. How many consonants are there in the English Alphabets?" wrapText="true">
          <font>
