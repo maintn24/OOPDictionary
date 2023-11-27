@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.paetest.HelloController">
+    <children>
+        <AnchorPane fx:id="addword2" layoutX="60.0" layoutY="46.0" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <children>
+                <Label text="ADD/MODIFY WORD" textFill="#6a7e78" AnchorPane.leftAnchor="220.0" AnchorPane.topAnchor="70.0">
+                    <font>
+                        <Font name="Montserrat ExtraBold" size="27.0" />
+                    </font>
+                </Label>
+                <Label text="Word" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="180.0">
+                    <font>
+                        <Font name="Montserrat Regular" size="20.0" />
+                    </font>
+                </Label>
+                <Label text="Definition" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="250.0">
+                    <font>
+                        <Font name="Montserrat Regular" size="20.0" />
+                    </font>
+                </Label>
+                <TextField prefHeight="37.0" prefWidth="414.0" style="-fx-background-color: white; -fx-background-radius: 40;" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="175.0">
+                    <font>
+                        <Font name="Montserrat Regular" size="16.0" />
+                    </font>
+                </TextField>
+                <TextField prefHeight="37.0" prefWidth="414.0" style="-fx-background-color: white; -fx-background-radius: 40;" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="240.0">
+                    <font>
+                        <Font name="Montserrat Regular" size="16.0" />
+                    </font>
+                </TextField>
+                <Button minWidth="50.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="570.0" AnchorPane.topAnchor="300.0">
+                    <graphic>
+                        <ImageView fitHeight="41.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@images/oll.png" />
+                            </image>
+                        </ImageView>
+                    </graphic>
+                </Button>
+            </children>
+        </AnchorPane>
+    </children>
+
+</AnchorPane>
