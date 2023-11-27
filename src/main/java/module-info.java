@@ -12,6 +12,9 @@ module oop.oopdictionary {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
 
-    opens oop.oopdictionary to javafx.fxml;
-    exports oop.oopdictionary;
+
+    exports oop.oopdictionary.quizgame;
+    opens oop.oopdictionary.quizgame to javafx.fxml;
+    exports oop.oopdictionary.wordsortgame;
+    opens oop.oopdictionary.wordsortgame to javafx.fxml;
 }
