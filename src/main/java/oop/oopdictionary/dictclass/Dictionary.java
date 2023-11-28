@@ -1,4 +1,4 @@
-//package Management;
+package oop.oopdictionary.dictclass;//package Management;
 
 import java.util.HashMap;
 

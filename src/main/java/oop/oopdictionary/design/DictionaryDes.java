@@ -8,7 +8,7 @@ import org.controlsfx.control.textfield.TextFields;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class Dictionary implements Initializable {
+public class DictionaryDes implements Initializable {
     @FXML
     private TextField autoTextField;
     @Override

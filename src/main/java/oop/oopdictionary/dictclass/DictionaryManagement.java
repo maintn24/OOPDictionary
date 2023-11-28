@@ -1,4 +1,6 @@
-//package Management;
+package oop.oopdictionary.dictclass;//package Management;
+
+import oop.oopdictionary.dictclass.Dictionary;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -17,20 +19,20 @@ public class DictionaryManagement {
             String target = scan.nextLine();
             String explain = scan.nextLine();
 
-            Dictionary.hashMap.put(target, explain);
+            oop.oopdictionary.dictclass.Dictionary.hashMap.put(target, explain);
         }
     }
 
 
     /** Them tu vao trong tu dien. */
     public void addWord(String target, String explain) {
-        Dictionary.hashMap.put(target, explain);
+        oop.oopdictionary.dictclass.Dictionary.hashMap.put(target, explain);
     }
 
 
     /**Xoa tu */
     public void removeWord(String target) {
-        Dictionary.hashMap.remove(target);
+        oop.oopdictionary.dictclass.Dictionary.hashMap.remove(target);
     }
 
 
@@ -41,12 +43,12 @@ public class DictionaryManagement {
 
     /** tim tu */
     public void dictionaryLookUp(String target) {
-         System.out.println(target + " : " + Dictionary.hashMap.get(target));
+         System.out.println(target + " : " + oop.oopdictionary.dictclass.Dictionary.hashMap.get(target));
     }
 
     /** in tat ca tu khoa. */
     public void printAll(){
-        Set<String> tapHopTuKhoa = Dictionary.hashMap.keySet();
+        Set<String> tapHopTuKhoa = oop.oopdictionary.dictclass.Dictionary.hashMap.keySet();
         System.out.println(Arrays.toString(tapHopTuKhoa.toArray()));
     }
 
@@ -56,7 +58,7 @@ public class DictionaryManagement {
         FileOutputStream fout = new FileOutputStream("data_Now.txt");
 
         try (BufferedOutputStream bout = new BufferedOutputStream(fout)) {
-            Set set = Dictionary.hashMap.entrySet();
+            Set set = oop.oopdictionary.dictclass.Dictionary.hashMap.entrySet();
             Iterator iterator = set.iterator();
 
             while(iterator.hasNext()) {

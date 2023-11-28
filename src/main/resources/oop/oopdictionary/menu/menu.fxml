@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="540.0" prefWidth="960.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.menu.ControllerMenu">
+   <children>
+      <BorderPane prefHeight="540.0" prefWidth="960.0">
+         <top>
+            <AnchorPane prefHeight="53.0" prefWidth="960.0" style="-fx-background-color: #FDF8DC;" BorderPane.alignment="CENTER">
+               <children>
+                  <JFXButton fx:id="menu1" prefHeight="50.0" prefWidth="56.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="4.0">
+                     <graphic>
+                        <ImageView fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/gf.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <JFXButton prefHeight="50.0" prefWidth="56.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="4.0">
+                     <graphic>
+                        <ImageView fx:id="menu2" fitHeight="42.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/hjfjsdh.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </top>
+         <left>
+            <AnchorPane fx:id="slidepane" prefHeight="484.0" prefWidth="281.0" BorderPane.alignment="CENTER">
+               <children>
+                  <AnchorPane prefHeight="484.0" prefWidth="74.0">
+                     <children>
+                        <VBox prefHeight="488.0" prefWidth="74.0" style="-fx-background-color: #6A7E78;">
+                           <children>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <VBox.margin>
+                                    <Insets left="10.0" top="10.0" />
+                                 </VBox.margin>
+                                 <image>
+                                    <Image url="@images/j.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/z.png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets left="15.0" top="20.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/x.png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets left="12.0" top="20.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/n.png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets left="13.0" top="20.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/r.png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets left="13.0" top="20.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@images/s.png" />
+                                 </image>
+                                 <VBox.margin>
+                                    <Insets left="13.0" top="20.0" />
+                                 </VBox.margin>
+                              </ImageView>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="75.0" prefHeight="485.0" prefWidth="220.0">
+                     <children>
+                        <VBox layoutX="-5.0" prefHeight="488.0" prefWidth="227.0" style="-fx-background-color: #6A7E78;">
+                           <children>
+                              <JFXButton prefHeight="46.0" prefWidth="220.0" text="HOME" textFill="#fdf8dc">
+                                 <VBox.margin>
+                                    <Insets top="13.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Montserrat Medium" size="20.0" />
+                                 </font>
+                              </JFXButton>
+                              <JFXButton prefHeight="46.0" prefWidth="220.0" text="DICTIONARY" textFill="#fdf8dc">
+                                 <VBox.margin>
+                                    <Insets top="15.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Montserrat Medium" size="20.0" />
+                                 </font>
+                              </JFXButton>
+                              <JFXButton prefHeight="46.0" prefWidth="220.0" text="MY DICTIONARY" textFill="#fdf8dc">
+                                 <VBox.margin>
+                                    <Insets top="23.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Montserrat Medium" size="20.0" />
+                                 </font>
+                              </JFXButton>
+                              <JFXButton prefHeight="46.0" prefWidth="220.0" text="TRANSLATE" textFill="#fdf8dc">
+                                 <VBox.margin>
+                                    <Insets top="19.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Montserrat Medium" size="20.0" />
+                                 </font>
+                              </JFXButton>
+                              <JFXButton prefHeight="46.0" prefWidth="220.0" text="GAME" textFill="#fdf8dc">
+                                 <VBox.margin>
+                                    <Insets top="16.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Montserrat Medium" size="20.0" />
+                                 </font>
+                              </JFXButton>
+                              <JFXButton prefHeight="46.0" prefWidth="220.0" text="SETTING" textFill="#fdf8dc">
+                                 <VBox.margin>
+                                    <Insets top="13.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Montserrat Medium" size="20.0" />
+                                 </font>
+                              </JFXButton>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
