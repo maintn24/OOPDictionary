@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707f33a9-951c-47f4-a00a-9b47d46a2538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/addword.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/dictionary.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/importdic.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/mydictionary.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/translate.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/CommandLine/Dictionary1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/CommandLine/DictionaryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/CommandLine/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/CommandLine/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DictionaryManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/oop/oopdictionary/WordSortGame.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -60,8 +62,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "design",
-    "last_opened_file_path": "C:/Users/PC/IdeaProjects/OOPDictionary/src/main/resources/oop/oopdictionary/design",
+    "git-widget-placeholder": "khanhdinh",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/Dict chung/OOPDictionary",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,9 +81,37 @@
       <recent name="D:\Work\Projects\OOPDictionary\src\main\java\oop\oopdictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordSortGame">
+  <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.Demo.HelloApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.design.HelloApplication" />
+      <module name="OOPDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.oopdictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordSortApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.wordsortgame.WordSortApplication" />
+      <module name="OOPDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.oopdictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oop.oopdictionary.design.HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.design.HelloApplication" />
       <module name="OOPDictionary" />
       <extension name="coverage">
         <pattern>
@@ -93,37 +123,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordSortGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.WordSortGame" />
-      <module name="OOPDictionary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.oopdictionary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oop.oopdictionary.HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.HelloApplication" />
-      <module name="OOPDictionary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.oopdictionary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.oop.oopdictionary.design.HelloApplication" />
+      <item itemvalue="Application.HelloApplication" />
+      <item itemvalue="Application.WordSortApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordSortGame" />
-        <item itemvalue="Application.oop.oopdictionary.HelloApplication" />
+        <item itemvalue="Application.oop.oopdictionary.design.HelloApplication" />
         <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.WordSortApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -144,5 +153,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -11,6 +11,7 @@ module oop.oopdictionary {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.logging;
 
 
     exports oop.oopdictionary.quizgame;
