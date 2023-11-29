@@ -11,7 +11,7 @@ module oop.oopdictionary {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
-    requires java.logging;
+
     requires com.jfoenix;
 
 
@@ -21,6 +21,5 @@ module oop.oopdictionary {
     opens oop.oopdictionary.wordsortgame to javafx.fxml;
     exports oop.oopdictionary.design;
     opens oop.oopdictionary.design to javafx.fxml;
-    exports oop.oopdictionary.menu;
-    opens oop.oopdictionary.menu to javafx.fxml, javafx.graphics;
+
 }
