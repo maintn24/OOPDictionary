@@ -7,7 +7,7 @@
 <?import javafx.scene.text.*?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.paetest.HelloController">
+            fx:controller="oop.oopdictionary.Addword">
     <children>
         <AnchorPane fx:id="addword2" layoutX="60.0" layoutY="46.0" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
             <children>
@@ -40,7 +40,7 @@
                     <graphic>
                         <ImageView fitHeight="41.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@images/oll.png" />
+                                <Image url="@../Icon/plus_sign.png" />
                             </image>
                         </ImageView>
                     </graphic>
