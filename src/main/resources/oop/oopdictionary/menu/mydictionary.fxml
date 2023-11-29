@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="panemydict" prefHeight="484.0" prefWidth="886.0" style=" -fx-background-color: #D8E0CE; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="oop.oopdictionary.menu.Mydictionary1">
+    <children>
+        <TextField fx:id="autotextField1" layoutX="47.0" layoutY="61.0" prefHeight="43.0" prefWidth="274.0" style="-fx-background-radius: 30;" />
+        <Button layoutX="331.0" layoutY="62.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="46.0" style="-fx-background-radius: 50; -fx-background-color: #6A7E78;">
+            <graphic>
+                <ImageView fitHeight="31.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/oll.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button layoutX="575.0" layoutY="62.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="46.0" style="-fx-background-radius: 50; -fx-background-color: #6A7E78;">
+            <graphic>
+                <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/nmm.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button layoutX="514.0" layoutY="62.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="46.0" style="-fx-background-radius: 50; -fx-background-color: #6A7E78;">
+            <graphic>
+                <ImageView fitHeight="30.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/uii.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button layoutX="454.0" layoutY="62.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="46.0" style="-fx-background-radius: 50; -fx-background-color: #6A7E78;">
+            <graphic>
+                <ImageView fitHeight="29.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/ggg.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button layoutX="394.0" layoutY="62.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="46.0" style="-fx-background-radius: 50; -fx-background-color: #6A7E78;">
+            <graphic>
+                <ImageView fitHeight="32.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/opp.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Text layoutX="84.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="474.1367416381836">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Text>
+    </children>
+
+</AnchorPane>

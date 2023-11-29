@@ -13,6 +13,7 @@ module oop.oopdictionary {
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
     requires java.logging;
+    requires com.jfoenix;
 
 
     exports oop.oopdictionary.quizgame;
@@ -25,4 +26,6 @@ module oop.oopdictionary {
     opens oop.oopdictionary.design to javafx.fxml;
     exports oop.oopdictionary.mydictionary;
     opens oop.oopdictionary.mydictionary to javafx.fxml;
+    exports oop.oopdictionary.menu;
+    opens oop.oopdictionary.menu to javafx.graphics, javafx.fxml;
 }
