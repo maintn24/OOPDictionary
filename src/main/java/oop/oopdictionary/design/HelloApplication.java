@@ -27,7 +27,7 @@ public class HelloApplication extends Application {
         primaryStage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
-    }
+//    public static void main(String[] args) {
+//        launch();
+//    }
 }

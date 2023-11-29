@@ -3,6 +3,7 @@ package oop.oopdictionary.quizgame;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressIndicator;
+import oop.oopdictionary.GameApplication;
 
 public class ResultController {
 
@@ -48,4 +49,9 @@ public class ResultController {
 
     }
 
+    GameApplication app = new GameApplication();
+    @FXML
+    private void switchToGameManager() {
+        app.getInstance().showGameManager();
+    }
 }

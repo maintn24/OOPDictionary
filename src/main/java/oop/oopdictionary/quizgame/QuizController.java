@@ -123,7 +123,7 @@ public class QuizController {
                 quizscene.setFill(Color.TRANSPARENT);
                 Stage quizstage = new Stage();
                 quizstage.setScene(quizscene);
-                quizstage.initStyle(StageStyle.TRANSPARENT);
+                //quizstage.initStyle(StageStyle.TRANSPARENT);
                 quizstage.show();
             } catch(IOException e) {
                 e.printStackTrace();
@@ -230,7 +230,7 @@ public class QuizController {
                 quizscene.setFill(Color.TRANSPARENT);
                 Stage quizstage = new Stage();
                 quizstage.setScene(quizscene);
-                quizstage.initStyle(StageStyle.TRANSPARENT);
+                //quizstage.initStyle(StageStyle.TRANSPARENT);
                 quizstage.show();
             } catch(IOException e) {
                 e.printStackTrace();
@@ -259,7 +259,7 @@ public class QuizController {
                 quizscene.setFill(Color.TRANSPARENT);
                 Stage quizstage = new Stage();
                 quizstage.setScene(quizscene);
-                quizstage.initStyle(StageStyle.TRANSPARENT);
+                //quizstage.initStyle(StageStyle.TRANSPARENT);
                 quizstage.show();
             } catch(IOException e) {
                 e.printStackTrace();
@@ -288,7 +288,7 @@ public class QuizController {
                 quizscene.setFill(Color.TRANSPARENT);
                 Stage quizstage = new Stage();
                 quizstage.setScene(quizscene);
-                quizstage.initStyle(StageStyle.TRANSPARENT);
+                //quizstage.initStyle(StageStyle.TRANSPARENT);
                 quizstage.show();
             } catch(IOException e) {
                 e.printStackTrace();

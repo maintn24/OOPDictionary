@@ -9,6 +9,7 @@ import javafx.scene.control.Button;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import oop.oopdictionary.GameApplication;
 
 public class HomeController {
 
@@ -30,7 +31,7 @@ public class HomeController {
                     Scene scene = new Scene(fxmlLoader.load());
                     Stage stage = new Stage();
                     stage.setScene(scene);
-                    stage.initStyle(StageStyle.TRANSPARENT);
+                    //stage.initStyle(StageStyle.TRANSPARENT);
                     scene.setFill(Color.TRANSPARENT);
                     stage.show();
                 } catch (Exception e) {
