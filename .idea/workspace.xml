@@ -5,56 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707f33a9-951c-47f4-a00a-9b47d46a2538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/GameApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/GameManagerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Translator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/TranslatorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/TranslatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/mydictionary/AddWordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/mydictionary/ImportFileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/mydictionary/MyDictApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/mydictionary/MyDictController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/quiz_sign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/wordsort_sign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Translator/translator.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/game-manager.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/mydictionary/add-word.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/mydictionary/import-file.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/mydictionary/my-dict.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/translator.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/wordsortgame/word-sort1.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/ControllerMenu1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/Dictionary1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/Game1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/MainMenu1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/Mydictionary1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/Translate1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/dictionary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/game.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/JDHGS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/Picture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/VBC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/gf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/ggg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/gggk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/j.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/jk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/kl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/nmm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/oll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/opp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/uii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/mydictionary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/translate.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/DictionaryManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/design/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/design/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/design/frontpage/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/design/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/design/frontpage/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/design/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/quizgame/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/quizgame/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/quizgame/QuizApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/quizgame/QuizApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/quizgame/QuizController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/quizgame/QuizController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/quizgame/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/quizgame/ResultController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/wordsortgame/WordSortApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/wordsortgame/WordSortApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/wordsortgame/WordSortController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/wordsortgame/WordSortController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/addword.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/addword.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/dictionary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/dictionary.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/frontpage/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/frontpage/fronted-pgae.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/fronted-pgae.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/images/Picture1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/search_sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/images/ggg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/import_sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/images/nmm.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/print_sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/images/oll.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/plus_sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/images/opp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/delete_sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/images/uii.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/export_sign.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/importdic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/importdic.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/mydictionary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/mydictionary.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/translate.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/design/translate.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/quizgame/home.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/quizgame/home.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/quizgame/quiz.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/quizgame/quiz.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/quizgame/result.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/quizgame/result.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/wordsortgame/word-sort.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,14 +104,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "merge",
-    "last_opened_file_path": "D:/Work/Projects/OOP/OOPDict/src/main/resources/oop/oopdictionary/quizgame",
+    "git-widget-placeholder": "menufinal",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/PC/IdeaProjects/DictionaryBTL/src/main/java/oop/oopdictionary",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.fileTypes",
@@ -128,10 +121,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\DictionaryBTL\src\main\java\oop\oopdictionary" />
+      <recent name="C:\Users\PC\IdeaProjects\DictionaryBTL\src\main\resources\oop\oopdictionary" />
       <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\quizgame" />
       <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources" />
       <recent name="D:\Work\Projects\OOP\OOPDict\src\main\java\oop\oopdictionary" />
-      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\wordsortgame" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\Icon" />
@@ -150,7 +144,7 @@
       <recent name="oop.oopdictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GameApplication">
+  <component name="RunManager" selected="Application.MainMenu1">
     <configuration name="GameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.GameApplication" />
       <module name="OOPDictionary" />
@@ -164,12 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyDictApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.mydictionary.MyDictApplication" />
+    <configuration name="MainMenu1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.menu.MainMenu1" />
       <module name="OOPDictionary" />
+      <option name="VM_PARAMETERS" value="--add-exports javafx.base/com.sun.javafx.event=org.controlsfx.controls" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.oopdictionary.mydictionary.*" />
+          <option name="PATTERN" value="oop.oopdictionary.menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TranslatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.translator.TranslatorApplication" />
+    <configuration name="MyDictApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.mydictionary.MyDictApplication" />
       <module name="OOPDictionary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.oopdictionary.translator.*" />
+          <option name="PATTERN" value="oop.oopdictionary.mydictionary.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,13 +224,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GameApplication" />
+      <item itemvalue="Application.MainMenu1" />
+      <item itemvalue="Application.MyDictApplication" />
+      <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
+      <item itemvalue="Application.WordSortApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainMenu1" />
+        <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
+        <item itemvalue="Application.MyDictApplication" />
         <item itemvalue="Application.GameApplication" />
         <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
-        <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
-        <item itemvalue="Application.TranslatorApplication" />
-        <item itemvalue="Application.MyDictApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -252,10 +254,22 @@
       <workItem from="1697262916294" duration="10313000" />
       <workItem from="1698119213373" duration="4014000" />
       <workItem from="1701222276075" duration="11043000" />
+      <workItem from="1701235725199" duration="6114000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

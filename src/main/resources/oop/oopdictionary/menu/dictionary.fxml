@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="oop.oopdictionary.menu.Dictionary1">
+    <AnchorPane prefHeight="502.0" prefWidth="805.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;">
+        <children>
+
+            <TextField layoutX="165.0" layoutY="81.0" prefHeight="55.0" prefWidth="487.0" style="-fx-background-radius: 30;" />
+            <Button layoutX="580.0" layoutY="90.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="53.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="83.0" style="-fx-background-color: white">
+                <graphic>
+                    <ImageView fitHeight="37.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@images/Picture1.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Text layoutX="127.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="581.3367767333984">
+                <font>
+                    <Font size="30.0" />
+                </font>
+            </Text>
+        </children>
+    </AnchorPane>
+</AnchorPane>
