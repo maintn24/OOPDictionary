@@ -20,13 +20,13 @@ import static oop.oopdictionary.Translator.translate;
 public class TranslatorController {
 
     @FXML
-    private TextArea targetDoc;
+    public TextArea targetDoc;
 
     @FXML
-    private TextArea resultDoc;
+    public TextArea resultDoc;
 
     @FXML
-    private Button addWord;
+    public Button addWord;
 
 
 

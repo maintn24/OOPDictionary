@@ -122,6 +122,12 @@ public class ControllerMenu1 implements Initializable {
         contentArea.getChildren().setAll(fxml);
     }
 
+    public void addWord(ActionEvent actionEvent) throws IOException {
+        Parent fxml = FXMLLoader.load(getClass().getResource("add-word.fxml"));
+        contentArea.getChildren().removeAll();
+        contentArea.getChildren().setAll(fxml);
+    }
+
 
     public void game(ActionEvent actionEvent) throws IOException {
         Parent fxml = FXMLLoader.load(getClass().getResource("game.fxml"));
