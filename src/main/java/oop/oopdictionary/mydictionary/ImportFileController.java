@@ -3,13 +3,20 @@ package oop.oopdictionary.mydictionary;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Hyperlink;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class ImportFileController {
+    @FXML
+    private AnchorPane contentArea;
+
     @FXML
     Button importButton;
 
@@ -29,7 +36,7 @@ public class ImportFileController {
                             app.dictionary.insertFromFile(fileName);
                             System.out.println("File inserted");
                             switchToDictionary();
-                        } catch (FileNotFoundException ex) {
+                        } catch (IOException ex) {
                             throw new RuntimeException(ex);
                         }
                     }
@@ -39,8 +46,11 @@ public class ImportFileController {
 
 
     @FXML
-    private void switchToDictionary() {
-        app.getInstance().showMyDictionary();
+    private void switchToDictionary() throws IOException {
+        //app.getInstance().showMyDictionary();
+        Parent fxml = FXMLLoader.load(getClass().getResource("my-dict.fxml"));
+        contentArea.getChildren().removeAll();
+        contentArea.getChildren().setAll(fxml);
     }
 }
 

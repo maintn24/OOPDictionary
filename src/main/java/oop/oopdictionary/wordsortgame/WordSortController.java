@@ -3,17 +3,26 @@ package oop.oopdictionary.wordsortgame;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Paint;
 import oop.oopdictionary.GameApplication;
 
 
+import java.io.IOException;
+import java.net.URL;
 import java.util.*;
 
 
-public class WordSortController {
+public class WordSortController implements Initializable {
+
+    @FXML
+    private AnchorPane gameArea;
 
     @FXML
     private Label unsortedText;
@@ -43,14 +52,10 @@ public class WordSortController {
     public int totalScore = 0;
     final private int score = 10;
 
-    public void initialize() {
-        generateWordList();
-        System.out.println("List Generated");
-
-        finishedButton.setVisible(false);
-        onGenerateWord();
 
 
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        resetGame();
         answerText.setOnAction(
                 new EventHandler<ActionEvent>() {
                     @Override
@@ -71,6 +76,41 @@ public class WordSortController {
     }
 
     @FXML
+    public void resetGame() {
+        //app.getInstance().showMyDictionary();
+//        InputStream fxmlStream = getClass().getClassLoader().getResourceAsStream("wort-sort1.fxml");
+//
+//        if (fxmlStream == null) {
+//            throw new IOException("FXML file not found");
+//        }
+//
+//        Parent fxml = new FXMLLoader().load(fxmlStream);
+
+//        Parent fxml = FXMLLoader.load(getClass().getResource("word-sort1.fxml"));
+//        gameArea.getChildren().removeAll();
+//        gameArea.getChildren().setAll(fxml);
+
+        finishedButton.setVisible(false);
+        unsortedText.setText(null);
+        notiText.setText(null);
+        answerText.setVisible(true);
+        scoreText.setVisible(true);
+        question.setVisible(true);
+        totalOfQuestion = 0;
+        currentQuestion = 0;
+        totalScore = 0;
+        wordDone.clear();
+        wordList.clear();
+        generateWordList();
+        System.out.println("List Generated");
+        onGenerateWord();
+
+
+    }
+
+
+
+    @FXML
     protected void onGenerateWord() {
 
         if(totalOfQuestion == 0) { //game end
@@ -83,6 +123,7 @@ public class WordSortController {
             unsortedText.setText(null);
 
             finishedButton.setVisible(true);
+
             answerText.setVisible(false);
             scoreText.setVisible(false);
             question.setVisible(false);
@@ -161,8 +202,5 @@ public class WordSortController {
     }
 
     GameApplication app = new GameApplication();
-    @FXML
-    private void switchToGameManager() {
-        app.getInstance().showGameManager();
-    }
+
 }

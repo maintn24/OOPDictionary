@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #fdf8dc; -fx-background-radius: 50; -fx-background-insets: 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.quizgame.ResultController">
+<AnchorPane fx:id="contentArea" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #fdf8dc; -fx-background-radius: 50; -fx-background-insets: 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.quizgame.ResultController">
    <children>
       <Label layoutX="304.0" layoutY="38.0" text="RESULT" textFill="#6a7e78">
          <font>
@@ -52,7 +52,7 @@
             <Font name="Open Sans Semibold" size="17.0" />
          </font>
       </Label>
-      <Button fx:id="finishedButton" layoutX="298.0" layoutY="362.0" mnemonicParsing="false" onAction="#switchToGameManager" prefHeight="57.0" prefWidth="144.0" style="-fx-background-color: #6a7e78; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Return" textFill="WHITE">
+      <Button fx:id="finishedButton" layoutX="298.0" layoutY="362.0" mnemonicParsing="false" onAction="#switchToHome" prefHeight="57.0" prefWidth="144.0" style="-fx-background-color: #6a7e78; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Return" textFill="WHITE">
          <font>
             <Font name="Arial Black" size="17.0" />
          </font>

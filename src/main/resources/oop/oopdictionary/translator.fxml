@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 
 <?import javafx.scene.control.TextArea?>
-<AnchorPane prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #EFC8CF; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.TranslatorController">
+<AnchorPane prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #EFC8CF; -fx-background-radius: 0; " xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.TranslatorController">
    <children>
       <Label text="TRANSLATE" textFill="#6a7e78" AnchorPane.leftAnchor="275.0" AnchorPane.topAnchor="40.0">
          <font>
@@ -20,7 +20,7 @@
          <graphic>
             <ImageView fitHeight="68.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@design/images/gggk.png" />
+                  <Image url="@Icon/change_sign.png" />
                </image>
             </ImageView>
          </graphic>
@@ -29,7 +29,7 @@
          <children>
             <ImageView fitHeight="196.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                <image>
-                  <Image url="@design/images/VBC.png" />
+                  <Image url="@Icon/translate_box_sign.png" />
                </image>
             </ImageView>
             <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 30;" text="ENG" textFill="#fdf8dc" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
@@ -48,7 +48,7 @@
          <children>
             <ImageView fitHeight="196.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                <image>
-                  <Image url="@design/images/VBC.png" />
+                  <Image url="@Icon/translate_box_sign.png" />
                </image>
             </ImageView>
             <TextArea fx:id="resultDoc"  layoutY="42.0" prefHeight="132.0" prefWidth="208.0" style="-fx-background-color: white; -fx-background-radius: 40;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="42.0">

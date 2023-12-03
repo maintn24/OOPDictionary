@@ -1,11 +1,19 @@
 package oop.oopdictionary.quizgame;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressIndicator;
+import javafx.scene.layout.AnchorPane;
 import oop.oopdictionary.GameApplication;
 
+import java.io.IOException;
+
 public class ResultController {
+
+    @FXML
+    private AnchorPane contentArea;
 
     @FXML
     public Label remark, marks, markstext, correcttext, wrongtext;
@@ -48,10 +56,11 @@ public class ResultController {
 
 
     }
-
-    GameApplication app = new GameApplication();
     @FXML
-    private void switchToGameManager() {
-        app.getInstance().showGameManager();
+    private void switchToHome() throws IOException {
+        //app.getInstance().showGameManager();
+        Parent fxml = FXMLLoader.load(getClass().getResource("home.fxml"));
+        contentArea.getChildren().removeAll();
+        contentArea.getChildren().setAll(fxml);
     }
 }

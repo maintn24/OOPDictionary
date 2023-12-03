@@ -3,9 +3,11 @@ package oop.oopdictionary.quizgame;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
@@ -13,6 +15,8 @@ import javafx.stage.StageStyle;
 import java.io.IOException;
 
 public class QuizController {
+    @FXML
+    private AnchorPane contentArea;
 
     @FXML
     public Label question;
@@ -26,7 +30,18 @@ public class QuizController {
 
     @FXML
     private void initialize() {
+        counter = 0;
+        correct = 0;
+        wrong = 0;
         loadQuestions();
+    }
+
+    @FXML
+    private void switchToResult() throws IOException {
+        //app.getInstance().showQuizGame();
+        Parent fxml = FXMLLoader.load(getClass().getResource("result.fxml"));
+        contentArea.getChildren().removeAll();
+        contentArea.getChildren().setAll(fxml);
     }
 
     private void loadQuestions() {
@@ -116,15 +131,16 @@ public class QuizController {
         if (counter == 9) {
             try {
                 System.out.println(correct);
-                Stage thisstage = (Stage) ((Button) event.getSource()).getScene().getWindow();
-                thisstage.close();
-                FXMLLoader quiz = new FXMLLoader(getClass().getResource("result.fxml"));
-                Scene quizscene = new Scene(quiz.load());
-                quizscene.setFill(Color.TRANSPARENT);
-                Stage quizstage = new Stage();
-                quizstage.setScene(quizscene);
-                //quizstage.initStyle(StageStyle.TRANSPARENT);
-                quizstage.show();
+//                Stage thisstage = (Stage) ((Button) event.getSource()).getScene().getWindow();
+//                thisstage.close();
+//                FXMLLoader quiz = new FXMLLoader(getClass().getResource("result.fxml"));
+//                Scene quizscene = new Scene(quiz.load());
+//                quizscene.setFill(Color.TRANSPARENT);
+//                Stage quizstage = new Stage();
+//                quizstage.setScene(quizscene);
+//                //quizstage.initStyle(StageStyle.TRANSPARENT);
+//                quizstage.show();
+                switchToResult();
             } catch(IOException e) {
                 e.printStackTrace();
             }
@@ -223,15 +239,16 @@ public class QuizController {
         if (counter == 9) {
             try {
                 System.out.println(correct);
-                Stage thisstage = (Stage) ((Button) event.getSource()).getScene().getWindow();
-                thisstage.close();
-                FXMLLoader quiz = new FXMLLoader(getClass().getResource("result.fxml"));
-                Scene quizscene = new Scene(quiz.load());
-                quizscene.setFill(Color.TRANSPARENT);
-                Stage quizstage = new Stage();
-                quizstage.setScene(quizscene);
-                //quizstage.initStyle(StageStyle.TRANSPARENT);
-                quizstage.show();
+//                Stage thisstage = (Stage) ((Button) event.getSource()).getScene().getWindow();
+//                thisstage.close();
+//                FXMLLoader quiz = new FXMLLoader(getClass().getResource("result.fxml"));
+//                Scene quizscene = new Scene(quiz.load());
+//                quizscene.setFill(Color.TRANSPARENT);
+//                Stage quizstage = new Stage();
+//                quizstage.setScene(quizscene);
+//                //quizstage.initStyle(StageStyle.TRANSPARENT);
+//                quizstage.show();
+                switchToResult();
             } catch(IOException e) {
                 e.printStackTrace();
             }
@@ -252,15 +269,16 @@ public class QuizController {
         if (counter == 9) {
             try {
                 System.out.println(correct);
-                Stage thisstage = (Stage) ((Button) event.getSource()).getScene().getWindow();
-                thisstage.close();
-                FXMLLoader quiz = new FXMLLoader(getClass().getResource("result.fxml"));
-                Scene quizscene = new Scene(quiz.load());
-                quizscene.setFill(Color.TRANSPARENT);
-                Stage quizstage = new Stage();
-                quizstage.setScene(quizscene);
-                //quizstage.initStyle(StageStyle.TRANSPARENT);
-                quizstage.show();
+//                Stage thisstage = (Stage) ((Button) event.getSource()).getScene().getWindow();
+//                thisstage.close();
+//                FXMLLoader quiz = new FXMLLoader(getClass().getResource("result.fxml"));
+//                Scene quizscene = new Scene(quiz.load());
+//                quizscene.setFill(Color.TRANSPARENT);
+//                Stage quizstage = new Stage();
+//                quizstage.setScene(quizscene);
+//                //quizstage.initStyle(StageStyle.TRANSPARENT);
+//                quizstage.show();
+                switchToResult();
             } catch(IOException e) {
                 e.printStackTrace();
             }
@@ -281,15 +299,16 @@ public class QuizController {
         if (counter == 9) {
             try {
                 System.out.println(correct);
-                Stage thisstage = (Stage) ((Button) event.getSource()).getScene().getWindow();
-                thisstage.close();
-                FXMLLoader quiz = new FXMLLoader(getClass().getResource("result.fxml"));
-                Scene quizscene = new Scene(quiz.load());
-                quizscene.setFill(Color.TRANSPARENT);
-                Stage quizstage = new Stage();
-                quizstage.setScene(quizscene);
-                //quizstage.initStyle(StageStyle.TRANSPARENT);
-                quizstage.show();
+//                Stage thisstage = (Stage) ((Button) event.getSource()).getScene().getWindow();
+//                thisstage.close();
+//                FXMLLoader quiz = new FXMLLoader(getClass().getResource("result.fxml"));
+//                Scene quizscene = new Scene(quiz.load());
+//                quizscene.setFill(Color.TRANSPARENT);
+//                Stage quizstage = new Stage();
+//                quizstage.setScene(quizscene);
+//                //quizstage.initStyle(StageStyle.TRANSPARENT);
+//                quizstage.show();
+                switchToResult();
             } catch(IOException e) {
                 e.printStackTrace();
             }

@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #fdf8dc; -fx-background-radius: 50; -fx-background-insets: 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.quizgame.HomeController">
+<AnchorPane fx:id="contentArea" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #fdf8dc; -fx-background-radius: 50; -fx-background-insets: 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.quizgame.HomeController">
    <children>
       <Label layoutX="229.0" layoutY="86.0" text="QUIZ GAME" textFill="#6a7e78">
          <font>

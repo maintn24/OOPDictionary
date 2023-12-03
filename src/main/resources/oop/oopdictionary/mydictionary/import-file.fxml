@@ -6,23 +6,32 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="importfile" prefHeight="540.0" prefWidth="960.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.mydictionary.ImportFileController">
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane fx:id="contentArea" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.mydictionary.ImportFileController">
    <children>
-      <Label layoutX="337.0" layoutY="37.0" text="IMPORT DICTIONARY" textFill="#6a7e78" AnchorPane.leftAnchor="337.0" AnchorPane.topAnchor="37.0">
+      <Label layoutX="227.0" layoutY="40.0" text="IMPORT DICTIONARY" textFill="#6a7e78" AnchorPane.leftAnchor="227.0" AnchorPane.topAnchor="40.0">
          <font>
             <Font name="Montserrat ExtraBold" size="30.0" />
          </font>
       </Label>
-      <TextField fx:id="file" layoutX="247.0" layoutY="185.0" prefHeight="50.0" prefWidth="510.0" style="-fx-background-color: white; -fx-background-radius: 50;" AnchorPane.leftAnchor="247.0" AnchorPane.topAnchor="185.0">
+      <TextField fx:id="file" layoutX="160.0" layoutY="185.0" prefHeight="50.0" prefWidth="510.0" style="-fx-background-color: white; -fx-background-radius: 50;" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="185.0">
          <font>
             <Font size="24.0" />
          </font></TextField>
-      <Label layoutX="173.0" layoutY="193.0" text="File:" AnchorPane.leftAnchor="173.0" AnchorPane.topAnchor="193.0">
+      <Label layoutX="105.0" layoutY="193.0" text="File:" AnchorPane.leftAnchor="105.0" AnchorPane.topAnchor="193.0">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Button fx:id="importButton" layoutX="757.0" layoutY="285.0" minWidth="44.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="44.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="757.0" AnchorPane.topAnchor="285.0">
+      <Button fx:id="importButton" onAction="#switchToDictionary" layoutX="638.0" layoutY="295.0" minWidth="44.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="570.0" AnchorPane.topAnchor="300.0">
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icon/plus_sign.png" />
+               </image>
+            </ImageView>
+         </graphic>
       </Button>
    </children>
 </AnchorPane>
