@@ -16,7 +16,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class Translator {
-    static String translate(String langFrom, String langTo, String text) throws IOException {
+    public static String translate(String langFrom, String langTo, String text) throws IOException {
         // INSERT YOU URL HERE
         String urlStr = "https://script.google.com/macros/s/AKfycbzeKpV171FTwUnJkYPFsmIRCQIzEnyQ8VuL-b4nGdu2KnZ5DffayFIDHR3QZ4onowvV2g/exec" +
                 "?q=" + URLEncoder.encode(text, StandardCharsets.UTF_8) +

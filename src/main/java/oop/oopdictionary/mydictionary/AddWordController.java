@@ -3,12 +3,19 @@ package oop.oopdictionary.mydictionary;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.AnchorPane;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class AddWordController {
+
+    @FXML
+    private AnchorPane contentArea;
     @FXML
     Button finish;
 
@@ -32,7 +39,11 @@ public class AddWordController {
                     public void handle(ActionEvent e) {
                         target = targetWord.getText();
                         explain = explanation.getText();
-                        switchToDictionary();
+                        try {
+                            switchToDictionary();
+                        } catch (IOException ex) {
+                            throw new RuntimeException(ex);
+                        }
                         app.dictionary.addWord(target, explain);
                         System.out.println("Add success");
                         System.out.println(target + " " + explain);
@@ -44,9 +55,11 @@ public class AddWordController {
 
 
     @FXML
-    private void switchToDictionary() {
-
-        app.getInstance().showMyDictionary();
+    private void switchToDictionary() throws IOException {
+        //app.getInstance().showMyDictionary();
+        Parent fxml = FXMLLoader.load(getClass().getResource("my-dict.fxml"));
+        contentArea.getChildren().removeAll();
+        contentArea.getChildren().setAll(fxml);
     }
 }
 

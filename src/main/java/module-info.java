@@ -22,10 +22,8 @@ module oop.oopdictionary {
     opens oop.oopdictionary.wordsortgame to javafx.fxml;
     exports oop.oopdictionary;
     opens oop.oopdictionary to javafx.fxml;
-    exports oop.oopdictionary.design;
-    opens oop.oopdictionary.design to javafx.fxml;
+
     exports oop.oopdictionary.mydictionary;
     opens oop.oopdictionary.mydictionary to javafx.fxml;
-    exports oop.oopdictionary.menu;
-    opens oop.oopdictionary.menu to javafx.graphics, javafx.fxml;
+
 }

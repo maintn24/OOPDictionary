@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="540.0" maxWidth="960.0" minHeight="50.0" minWidth="50.0" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #FDF8DC; -fx-background-radius: 50; -fx-background-insets: 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.wordsortgame.WordSortController"> <!-- Set background color here -->
+<AnchorPane fx:id="gameArea" maxHeight="540.0" maxWidth="960.0" minHeight="50.0" minWidth="50.0" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #FDF8DC; -fx-background-radius: 50; -fx-background-insets: 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.wordsortgame.WordSortController"> <!-- Set background color here -->
  <children>
    <Label fx:id="scoreText" layoutX="565.0" layoutY="31.0" text="Score: 0" textFill="#6a7e78"> <!-- Set text color here -->
      <font>
@@ -38,7 +38,7 @@
          </effect>
    </TextField>
 
-   <Button fx:id="finishedButton" layoutX="302.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchToGameManager" prefHeight="57.0" prefWidth="136.0" style="-fx-background-color: #6a7e78; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Return" textFill="WHITE">
+   <Button fx:id="finishedButton" onAction="#resetGame" layoutX="302.0" layoutY="361.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="136.0" style="-fx-background-color: #6a7e78; -fx-background-radius: 10px; -fx-border-radius: 10px;" text="Reset" textFill="WHITE">
      <font>
        <Font name="Arial Black" size="17.0" />
      </font>

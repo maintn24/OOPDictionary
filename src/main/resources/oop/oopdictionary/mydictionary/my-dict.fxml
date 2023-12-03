@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="mydictionary" prefHeight="540.0" prefWidth="960.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.mydictionary.MyDictController">
+<AnchorPane fx:id="contentArea" prefHeight="460.0" prefWidth="740.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.mydictionary.MyDictController">
       <children>
           <TextField fx:id="targetWord" onAction="#onReceiveWord" prefHeight="46.0" prefWidth="216.0" promptText="Search" style="-fx-background-color: white; -fx-background-radius: 30;" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="35.0">
               <font>
@@ -24,11 +24,6 @@
                   </ImageView>
               </graphic>
           </Button>
-          <Text fx:id="explanation" layoutX="100.0" layoutY="147.94921875" style="-fx-background-radius: 30; -fx-background-color: white;" text="hhhhhhhhhhhhhhhhhhhhhhhhhh" wrappingWidth="545.0" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="135.0">
-         <font>
-            <Font size="30.0" />
-         </font>
-      </Text>
           <Button fx:id="addWord" layoutX="344.0" layoutY="39.0" minWidth="30.0" mnemonicParsing="false" onAction="#switchToAddWord" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="344.0" AnchorPane.topAnchor="39.0">
               <graphic>
                   <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
@@ -74,6 +69,20 @@
                   </ImageView>
               </graphic>
           </Button>
+      <AnchorPane layoutX="75.0" layoutY="138.0" maxHeight="286.0" maxWidth="616.0" minHeight="50.0" minWidth="50.0" prefHeight="286.0" prefWidth="616.0">
+         <children>
+            <ImageView fitHeight="294.0" fitWidth="616.0" layoutY="-8.0" pickOnBounds="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-8.0">
+               <image>
+                  <Image url="@../Icon/translate_box_sign.png" />
+               </image>
+            </ImageView>
+                <Text fx:id="explanation" layoutX="20.0" layoutY="46.373046875" style="-fx-background-radius: 30; -fx-background-color: white;" wrappingWidth="581.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
 
       </children>
 
