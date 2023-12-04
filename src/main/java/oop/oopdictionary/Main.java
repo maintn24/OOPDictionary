@@ -5,7 +5,11 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
+
+import java.awt.*;
+import java.io.IOException;
 
 public class Main extends Application {
     //chạy chương trình full ở đây
@@ -21,11 +25,12 @@ public class Main extends Application {
         //dictionary.insertFromFile();
         showMenu();
 
+
     }
 
     public void showMenu() {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("menu-bar.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("fronted.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
@@ -34,6 +39,7 @@ public class Main extends Application {
             e.printStackTrace();
         }
     }
+
 
 
     public Main getInstance() {
