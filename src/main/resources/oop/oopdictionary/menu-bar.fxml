@@ -4,9 +4,9 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<?import javafx.scene.layout.StackPane?>
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #FFFBF4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.MenuController">
    <children>
       <AnchorPane prefHeight="46.0" prefWidth="200.0" style="-fx-background-color: #FDF8DC;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
@@ -22,34 +22,34 @@
          <children>
             <VBox alignment="TOP_CENTER" layoutY="8.0" prefHeight="350.0" prefWidth="60.0" spacing="12.0" AnchorPane.topAnchor="8.0">
                <children>
-                  <Button fx:id="myDictionaryButton" onAction="#switchToDictionary" layoutX="537.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="537.0" AnchorPane.topAnchor="40.0">
+                  <Button fx:id="myDictionaryButton" layoutX="537.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" onAction="#switchToDictionary" prefHeight="58.0" prefWidth="68.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="537.0" AnchorPane.topAnchor="40.0">
                      <graphic>
-                        <ImageView fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" smooth="false">
+                        <ImageView fx:id="defaultdict" fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" smooth="false">
                            <image>
                               <Image url="@Icon/dict_sign.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button layoutX="22.0" layoutY="252.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;">
+                  <Button layoutX="22.0" layoutY="252.0" minWidth="30.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="63.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;">
                      <graphic>
-                        <ImageView fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView  fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@Icon/my_dict_sign.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="translateButton" onAction="#switchToTranslator" layoutX="22.0" layoutY="260.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;">
+                  <Button fx:id="translateButton" layoutX="22.0" layoutY="260.0" minWidth="30.0" mnemonicParsing="false" onAction="#switchToTranslator" prefHeight="52.0" prefWidth="61.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;">
                      <graphic>
-                        <ImageView fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="defaulttrans" fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@Icon/translate_sign.png" />
                            </image>
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button fx:id="gameButton" onAction="#switchToGameManager" layoutX="22.0" layoutY="250.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;">
+                  <Button fx:id="gameButton" layoutX="22.0" layoutY="250.0" minWidth="30.0" mnemonicParsing="false" onAction="#switchToGameManager" prefHeight="48.0" prefWidth="64.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;">
                      <graphic>
                         <ImageView fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -58,7 +58,7 @@
                         </ImageView>
                      </graphic>
                   </Button>
-                  <Button layoutX="22.0" layoutY="263.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;">
+                  <Button layoutX="22.0" layoutY="263.0" minWidth="30.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="76.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;">
                      <graphic>
                         <ImageView fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
                            <image>

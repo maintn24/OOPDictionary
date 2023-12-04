@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
@@ -25,7 +26,7 @@ public class MyDictController implements Initializable {
     private TextField targetWord;
 
     @FXML
-    private Text explanation;
+    private TextArea explanation;
 
     @FXML
     private Button addWord;
@@ -44,6 +45,10 @@ public class MyDictController implements Initializable {
     MyDictApplication app = new MyDictApplication();
 
     public void initialize(URL location, ResourceBundle resources) {
+        explanation.setEditable(false);
+        explanation.setWrapText(true);
+        //explanation.setDisable(true);
+        ///explanation.
 //        System.out.println("Controller initialized");
 //        //String[] possibleWords = app.dictionary.printAll();
 //        //System.out.println(Arrays.toString(possibleWords));
@@ -64,19 +69,6 @@ public class MyDictController implements Initializable {
                     }
                 }
         );
-
-//        addWord.setOnAction(
-//                new EventHandler<ActionEvent>() {
-//                    @Override
-//                    public void handle(ActionEvent e) {
-//                        try {
-//                            //menu.showAddWord(e);
-//                        } catch (IOException ex) {
-//                            throw new RuntimeException(ex);
-//                        }
-//                    }
-//                }
-//        );
 
     }
     @FXML

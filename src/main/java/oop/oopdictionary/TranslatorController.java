@@ -1,23 +1,21 @@
 package oop.oopdictionary;
 
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.text.Text;
-import oop.oopdictionary.mydictionary.MyDictApplication;
 
 import java.io.IOException;
 
 import static oop.oopdictionary.Translator.translate;
 
 public class TranslatorController {
+    @FXML
+    public Button lang1;
+    @FXML
+    public Button lang2;
+    @FXML
+    public Button changeLang;
 
     @FXML
     public TextArea targetDoc;
@@ -28,12 +26,16 @@ public class TranslatorController {
     @FXML
     public Button addWord;
 
-
+    private String language1 = "en";
+    private String language2 = "vi";
 
     @FXML
     public void initialize() {
+        lang1.setText("ENG");
+        lang2.setText("VIE");
         targetDoc.setWrapText(true);
         resultDoc.setWrapText(true);
+        resultDoc.setEditable(false);
         targetDoc.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.ENTER && event.isShiftDown()) {
                 // Shift + Enter pressed, insert a new line without handling the default behavior
@@ -51,9 +53,25 @@ public class TranslatorController {
     }
     @FXML
     protected void onReceiveWord() throws IOException, InterruptedException {
-        Translator translator = new Translator();
+        //Translator translator = new Translator();
         String userInput = targetDoc.getText();
         System.out.println(userInput);
-        resultDoc.setText(translate("en", "vi", userInput));
+        resultDoc.setText(translate(language1, language2, userInput));
+    }
+
+    @FXML
+    protected void changeLanguage() throws IOException {
+        String tmp = lang1.getText();
+        lang1.setText(lang2.getText());
+        lang2.setText(tmp);
+
+        tmp = language1;
+        language1 = language2;
+        language2 = tmp;
+
+        //Translator translator = new Translator();
+        String userInput = targetDoc.getText();
+        System.out.println(userInput);
+        resultDoc.setText(translate(language1, language2, userInput));
     }
 }

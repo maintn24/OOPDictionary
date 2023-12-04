@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.frontedController">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="800.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@Icon/1.jpg" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+      </ImageView>
+      <Button layoutX="270.0" layoutY="311.0" mnemonicParsing="false" onAction="#switchToNext" prefHeight="53.0" prefWidth="239.0" style="-fx-background-radius: 30; -fx-background-color: #FECAD6;" text="GET STARTED" textFill="#775454">
+         <font>
+            <Font name="Lazydog" size="25.0" />
+         </font>
+         <graphic>
+            <FontAwesomeIconView fill="#775454" glyphName="ARROW_RIGHT" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
