@@ -57,6 +57,6 @@ public class DictionaryManagement {
             System.out.println(target + " " + Dictionary.hashMap.get(target));
             return Dictionary.hashMap.get(target);
         }
-        return "";
+        return "Từ này hiện chưa có";
     }
 }

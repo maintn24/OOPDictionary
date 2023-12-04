@@ -201,6 +201,4 @@ public class WordSortController implements Initializable {
         return s;
     }
 
-    GameApplication app = new GameApplication();
-
 }
