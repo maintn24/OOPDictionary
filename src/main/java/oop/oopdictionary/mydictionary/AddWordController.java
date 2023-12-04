@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
+import oop.oopdictionary.Main;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -28,7 +29,7 @@ public class AddWordController {
     String target;
     String explain;
 
-    MyDictApplication app = new MyDictApplication();
+    Main app = new Main();
 
     public void initialize() throws FileNotFoundException {
 

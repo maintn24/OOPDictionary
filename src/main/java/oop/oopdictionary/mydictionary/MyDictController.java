@@ -12,6 +12,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
+import oop.oopdictionary.Main;
 
 import java.io.IOException;
 import java.net.URL;
@@ -42,7 +43,7 @@ public class MyDictController implements Initializable {
 
     String target;
 
-    MyDictApplication app = new MyDictApplication();
+    Main app = new Main();
 
     public void initialize(URL location, ResourceBundle resources) {
         explanation.setEditable(false);

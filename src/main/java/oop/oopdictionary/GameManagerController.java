@@ -31,7 +31,7 @@ public class GameManagerController implements Initializable{
     @FXML
     private Button quiz;
 
-    GameApplication app = new GameApplication();
+    Main app = new Main();
 
     @FXML
     private void switchToWordSortGame() throws IOException {
