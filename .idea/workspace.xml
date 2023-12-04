@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707f33a9-951c-47f4-a00a-9b47d46a2538" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Word.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/frontedController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/Icon/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/fronted.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/DictionaryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/MenuController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Translator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Translator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/TranslatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/TranslatorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/mydictionary/MyDictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/mydictionary/MyDictController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu-bar.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu-bar.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/mydictionary/my-dict.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/mydictionary/my-dict.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/translator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/translator.fxml" afterDir="false" />
     </list>
@@ -38,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dictionaryextra" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,9 +69,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "finaldesign",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/PC/IdeaProjects/FinalDictionary/src/main/resources/oop/oopdictionary",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Work/Projects/OOP/OOPDict/src/main/resources/oop/oopdictionary",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -95,11 +85,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\PC\IdeaProjects\FinalDictionary\src\main\resources\oop\oopdictionary" />
-      <recent name="C:\Users\PC\IdeaProjects\FinalDictionary\src\main\resources\oop\oopdictionary\Icon" />
       <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary" />
       <recent name="D:\Work\Projects\OOP\OOPDict\Lib" />
       <recent name="D:\Work\Projects\OOP\OOPDict" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\quizgame" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary" />
@@ -118,33 +108,7 @@
       <recent name="oop.oopdictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="GameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.GameApplication" />
-      <module name="OOPDictionary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.oopdictionary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.Main" />
-      <module name="OOPDictionary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.oopdictionary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyDictApplication">
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.design.Main1" />
       <module name="OOPDictionary" />
@@ -184,13 +148,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TranslatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.translator.TranslatorApplication" />
+      <module name="OOPDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.oopdictionary.translator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oop.oopdictionary.TranslatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.TranslatorApplication" />
+      <module name="OOPDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.oopdictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyDictApplication" />
+        <item itemvalue="Application.TranslatorApplication" />
+        <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
         <item itemvalue="Application.MainMenu1" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.GameApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +199,6 @@
       <workItem from="1701222276075" duration="11043000" />
       <workItem from="1701446602788" duration="12505000" />
       <workItem from="1701574570836" duration="20204000" />
-      <workItem from="1701711314683" duration="1296000" />
     </task>
     <servers />
   </component>

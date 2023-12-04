@@ -50,4 +50,3 @@ public class Word {
         return "Word{" + "wordTarget='" + wordTarget + '\'' + ", wordExplain='" + wordExplain + '\'' + '}';
     }
 }
-
