@@ -2,12 +2,13 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
+<?import javafx.scene.control.TextArea?>
 <AnchorPane prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #EFC8CF; -fx-background-radius: 0; " xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.TranslatorController">
    <children>
       <Label text="TRANSLATE" textFill="#6a7e78" AnchorPane.leftAnchor="275.0" AnchorPane.topAnchor="40.0">
@@ -15,47 +16,47 @@
             <Font name="Montserrat ExtraBold" size="29.0" />
          </font>
       </Label>
-      <Button fx:id="changeLang" layoutX="318.0" layoutY="234.0" mnemonicParsing="false" onAction="#changeLanguage" prefHeight="60.0" prefWidth="90.0" style="-fx-background-color: #EFC8CF;" AnchorPane.leftAnchor="318.0" AnchorPane.topAnchor="234.0">
+      <Button layoutX="324.8" layoutY="243.2" mnemonicParsing="false" prefHeight="70.0" prefWidth="104.0" style="-fx-background-color: #EFC8CF;" AnchorPane.leftAnchor="325.0" AnchorPane.topAnchor="230.0">
          <graphic>
-            <ImageView fitHeight="60.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="68.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icon/change_sign.png" />
                </image>
             </ImageView>
          </graphic>
       </Button>
-      <AnchorPane layoutX="14.0" layoutY="143.0" maxHeight="250.0" maxWidth="300.0" minHeight="50.0" minWidth="50.0" prefHeight="250.0" prefWidth="300.0">
+      <AnchorPane layoutX="117.0" layoutY="171.0" maxHeight="201.0" maxWidth="208.0" minHeight="50.0" minWidth="50.0" prefHeight="185.0" prefWidth="208.0">
          <children>
-            <ImageView fitHeight="250.0" fitWidth="300.0" layoutX="9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="9.0" AnchorPane.topAnchor="0.0">
+            <ImageView fitHeight="196.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                <image>
                   <Image url="@Icon/translate_box_sign.png" />
                </image>
             </ImageView>
-            <Button fx:id="lang1" layoutX="46.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 30;" text="ENG" textFill="#fdf8dc" AnchorPane.leftAnchor="46.0" AnchorPane.topAnchor="0.0">
+            <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 30;" text="ENG" textFill="#fdf8dc" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                <font>
                   <Font name="Montserrat ExtraBold" size="17.0" />
                </font>
             </Button>
-            <TextArea fx:id="targetDoc" layoutX="16.8" layoutY="46.4" maxHeight="210.0" maxWidth="281.0" minHeight="132.0" minWidth="200.0" prefHeight="187.0" prefWidth="266.0" promptText="Text here..." style="-fx-background-color: white; -fx-background-radius: 40;" AnchorPane.leftAnchor="17.0" AnchorPane.topAnchor="46.0">
+            <TextArea fx:id="targetDoc"  layoutY="42.0" maxHeight="132.0" maxWidth="208.0" minHeight="132.0" minWidth="200.0"  prefHeight="132.0" prefWidth="208.0" promptText="Text here..." style="-fx-background-color: white; -fx-background-radius: 40;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="42.0">
                <font>
                   <Font name="Montserrat Regular" size="16.0" />
                </font>
             </TextArea>
          </children>
       </AnchorPane>
-      <AnchorPane layoutX="426.0" layoutY="143.0" maxHeight="250.0" maxWidth="300.0" minHeight="50.0" minWidth="50.0" prefHeight="250.0" prefWidth="300.0">
+      <AnchorPane layoutX="439.0" layoutY="176.0" maxHeight="201.0" maxWidth="208.0" minHeight="50.0" minWidth="50.0" prefHeight="185.0" prefWidth="208.0">
          <children>
-            <ImageView fitHeight="250.0" fitWidth="300.0" layoutX="10.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="3.0">
+            <ImageView fitHeight="196.0" fitWidth="208.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
                <image>
                   <Image url="@Icon/translate_box_sign.png" />
                </image>
             </ImageView>
-            <TextArea fx:id="resultDoc" layoutX="20.0" layoutY="45.0" prefHeight="187.0" prefWidth="265.0" style="-fx-background-color: white; -fx-background-radius: 40;" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="45.0">
+            <TextArea fx:id="resultDoc"  layoutY="42.0" prefHeight="132.0" prefWidth="208.0" style="-fx-background-color: white; -fx-background-radius: 40;" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="42.0">
                <font>
                   <Font name="Montserrat Regular" size="16.0" />
                </font>
             </TextArea>
-            <Button fx:id="lang2" layoutX="47.0" layoutY="3.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: #EAC48E; -fx-background-radius: 30;" text="VIE" textFill="#fdf8dc" AnchorPane.leftAnchor="47.0" AnchorPane.topAnchor="3.0">
+            <Button layoutY="-5.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="208.0" style="-fx-background-color: #EAC48E; -fx-background-radius: 30;" text="VIE" textFill="#fdf8dc" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-5.0">
                <font>
                   <Font name="Montserrat ExtraBold" size="17.0" />
                </font>

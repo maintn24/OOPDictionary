@@ -8,83 +8,82 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<?import javafx.scene.control.TextArea?>
 <AnchorPane fx:id="contentArea" prefHeight="460.0" prefWidth="740.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.mydictionary.MyDictController">
-    <children>
-        <TextField fx:id="targetWord" onAction="#onReceiveWord" prefHeight="46.0" prefWidth="216.0" promptText="Search" style="-fx-background-color: white; -fx-background-radius: 30;" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="35.0">
-            <font>
-                <Font size="20.0" />
-            </font>
-        </TextField>
-        <Button layoutX="277.0" layoutY="43.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="30.0" style="-fx-background-color: white; -fx-background-radius: 50;" AnchorPane.leftAnchor="277.0" AnchorPane.topAnchor="43.0">
-            <graphic>
-                <ImageView fitHeight="23.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../Icon/search_sign.png" />
-                    </image>
-                </ImageView>
-            </graphic>
-        </Button>
-        <Button fx:id="addWord" layoutX="344.0" layoutY="39.0" minWidth="30.0" mnemonicParsing="false" onAction="#switchToAddWord" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="344.0" AnchorPane.topAnchor="39.0">
-            <graphic>
-                <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../Icon/plus_sign.png" />
-                    </image>
-                </ImageView>
-            </graphic>
-        </Button>
-        <Button fx:id="deleteWord" layoutX="395.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="395.0" AnchorPane.topAnchor="40.0">
-            <graphic>
-                <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../Icon/delete_sign.png" />
-                    </image>
-                </ImageView>
-            </graphic>
-        </Button>
-        <Button fx:id="importFile" layoutX="443.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" onAction="#switchToImportFile" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="443.0" AnchorPane.topAnchor="40.0">
-            <graphic>
-                <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../Icon/import_sign.png" />
-                    </image>
-                </ImageView>
-            </graphic>
-        </Button>
-        <Button layoutX="491.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="491.0" AnchorPane.topAnchor="40.0">
-            <graphic>
-                <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../Icon/export_sign.png" />
-                    </image>
-                </ImageView>
-            </graphic>
-        </Button>
-        <Button layoutX="537.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="537.0" AnchorPane.topAnchor="40.0">
-            <graphic>
-                <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
-                    <image>
-                        <Image url="@../Icon/print_sign.png" />
-                    </image>
-                </ImageView>
-            </graphic>
-        </Button>
-        <AnchorPane layoutX="75.0" layoutY="138.0" maxHeight="286.0" maxWidth="616.0" minHeight="50.0" minWidth="50.0" prefHeight="286.0" prefWidth="616.0">
-            <children>
-                <ImageView fitHeight="294.0" fitWidth="616.0" layoutY="-8.0" pickOnBounds="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-8.0">
-                    <image>
-                        <Image url="@../Icon/translate_box_sign.png" />
-                    </image>
-                </ImageView>
-                <TextArea fx:id="explanation" layoutX="20.0" layoutY="46.373046875" style="-fx-background-radius: 30; -fx-background-color: white;" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="14.0">
-                    <font>
-                        <Font size="15.0" />
-                    </font>
-                </TextArea>
-            </children>
-        </AnchorPane>
+      <children>
+          <TextField fx:id="targetWord" onAction="#onReceiveWord" prefHeight="46.0" prefWidth="216.0" promptText="Search" style="-fx-background-color: white; -fx-background-radius: 30;" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="35.0">
+              <font>
+                  <Font size="20.0" />
+              </font>
+          </TextField>
+          <Button layoutX="277.0" layoutY="43.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="30.0" style="-fx-background-color: white; -fx-background-radius: 50;" AnchorPane.leftAnchor="277.0" AnchorPane.topAnchor="43.0">
+              <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../Icon/search_sign.png" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+          <Button fx:id="addWord" layoutX="344.0" layoutY="39.0" minWidth="30.0" mnemonicParsing="false" onAction="#switchToAddWord" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="344.0" AnchorPane.topAnchor="39.0">
+              <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../Icon/plus_sign.png" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+          <Button fx:id="deleteWord" layoutX="395.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="395.0" AnchorPane.topAnchor="40.0">
+              <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../Icon/delete_sign.png" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+          <Button fx:id="importFile" layoutX="443.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" onAction="#switchToImportFile" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="443.0" AnchorPane.topAnchor="40.0">
+              <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../Icon/import_sign.png" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+          <Button layoutX="491.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="491.0" AnchorPane.topAnchor="40.0">
+              <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../Icon/export_sign.png" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+          <Button layoutX="537.0" layoutY="40.0" minWidth="30.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="37.0" style="-fx-background-color: #6A7E78; -fx-background-radius: 70;" AnchorPane.leftAnchor="537.0" AnchorPane.topAnchor="40.0">
+              <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@../Icon/print_sign.png" />
+                      </image>
+                  </ImageView>
+              </graphic>
+          </Button>
+      <AnchorPane layoutX="75.0" layoutY="138.0" maxHeight="286.0" maxWidth="616.0" minHeight="50.0" minWidth="50.0" prefHeight="286.0" prefWidth="616.0">
+         <children>
+            <ImageView fitHeight="294.0" fitWidth="616.0" layoutY="-8.0" pickOnBounds="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="-8.0">
+               <image>
+                  <Image url="@../Icon/translate_box_sign.png" />
+               </image>
+            </ImageView>
+                <Text fx:id="explanation" layoutX="20.0" layoutY="46.373046875" style="-fx-background-radius: 30; -fx-background-color: white;" wrappingWidth="581.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
 
-    </children>
+      </children>
 
-</AnchorPane>
+  </AnchorPane>

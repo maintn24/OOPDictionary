@@ -50,8 +50,6 @@ public class Translator {
         dictionary.insertFromFile("data_Now.txt"); ///
         System.out.println("Import success");
 
-//        System.out.println(Arrays.toString(dictionary.printAll()));
-
         Scanner sc = new Scanner(System.in);
         String text;
         String lastWord = "none";
