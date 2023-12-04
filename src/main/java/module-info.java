@@ -4,6 +4,7 @@ module oop.oopdictionary {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.web;
+    requires javafx.graphics;
 
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
@@ -11,6 +12,8 @@ module oop.oopdictionary {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.logging;
+    requires com.jfoenix;
 
     requires com.jfoenix;
 
@@ -19,7 +22,18 @@ module oop.oopdictionary {
     opens oop.oopdictionary.quizgame to javafx.fxml;
     exports oop.oopdictionary.wordsortgame;
     opens oop.oopdictionary.wordsortgame to javafx.fxml;
+<<<<<<< HEAD
     exports oop.oopdictionary.design;
     opens oop.oopdictionary.design to javafx.fxml;
 
+=======
+    exports oop.oopdictionary;
+    opens oop.oopdictionary to javafx.fxml;
+    exports oop.oopdictionary.design;
+    opens oop.oopdictionary.design to javafx.fxml;
+    exports oop.oopdictionary.mydictionary;
+    opens oop.oopdictionary.mydictionary to javafx.fxml;
+    exports oop.oopdictionary.menu;
+    opens oop.oopdictionary.menu to javafx.graphics, javafx.fxml;
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
 }

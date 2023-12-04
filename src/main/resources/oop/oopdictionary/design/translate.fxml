@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.paetest.Translate">
+            fx:controller="oop.oopdictionary.Translate">
     <children>
     <AnchorPane layoutX="60.0" layoutY="46.0" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #EFC8CF; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
     <children>

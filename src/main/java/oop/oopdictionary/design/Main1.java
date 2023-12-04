@@ -1,4 +1,4 @@
-package oop.oopdictionary.design.frontpage;
+package oop.oopdictionary.design;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

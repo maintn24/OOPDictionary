@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="707f33a9-951c-47f4-a00a-9b47d46a2538" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/ControllerMenu.java" beforeDir="false" />
@@ -65,6 +66,50 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/x.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/z.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/menu.fxml" beforeDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/ControllerMenu1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/Dictionary1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/Game1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/MainMenu1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/Mydictionary1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/menu/Translate1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/dictionary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/game.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/home.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/JDHGS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/Picture1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/VBC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/e.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/gf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/ggg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/gggk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/j.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/jk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/kl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/nmm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/oll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/opp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/uii.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/images/z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/menu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/mydictionary.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/menu/translate.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +119,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
         <option value="JavaFXApplication" />
+=======
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -82,6 +130,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/oop/oopdictionary/WordSortGame.java" root0="FORCE_HIGHLIGHTING" />
@@ -105,6 +160,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -123,10 +179,32 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "menufinal",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/PC/IdeaProjects/DictionaryBTL/src/main/java/oop/oopdictionary",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\PC\IdeaProjects\OOPDictionary\src\main\resources\oop\oopdictionary\design" />
       <recent name="C:\Users\PC\IdeaProjects\OOPDictionary\src\main\resources\oop\oopdictionary\menu\images" />
       <recent name="C:\Users\PC\IdeaProjects\OOPDictionary\src\main\resources\oop\oopdictionary\menu" />
@@ -141,10 +219,29 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="oop.oopdictionary.dictclass" />
       <recent name="oop.oopdictionary" />
+=======
+      <recent name="C:\Users\PC\IdeaProjects\DictionaryBTL\src\main\java\oop\oopdictionary" />
+      <recent name="C:\Users\PC\IdeaProjects\DictionaryBTL\src\main\resources\oop\oopdictionary" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\quizgame" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\java\oop\oopdictionary" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\Icon" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\wordsortgame" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\Translator" />
+      <recent name="D:\Work\Projects\OOP\OOPDict\src\main\resources\oop\oopdictionary\mydictionary\Icon" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="oop.oopdictionary" />
+      <recent name="oop.oopdictionary.design" />
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
       <recent name="oop.oopdictionary.wordsortgame" />
       <recent name="oop.oopdictionary.quizgame" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+<<<<<<< HEAD
       <recent name="oop.oopdictionary.dictclass" />
     </key>
   </component>
@@ -164,6 +261,14 @@
     </configuration>
     <configuration name="MainMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.menu.MainMenu" />
+=======
+      <recent name="oop.oopdictionary" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainMenu1">
+    <configuration name="GameApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.GameApplication" />
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
       <module name="OOPDictionary" />
       <extension name="coverage">
         <pattern>
@@ -175,8 +280,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="QuizApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.quizgame.QuizApplication" />
+=======
+    <configuration name="MainMenu1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.menu.MainMenu1" />
+      <module name="OOPDictionary" />
+      <option name="VM_PARAMETERS" value="--add-exports javafx.base/com.sun.javafx.event=org.controlsfx.controls" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.oopdictionary.menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyDictApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.mydictionary.MyDictApplication" />
+      <module name="OOPDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.oopdictionary.mydictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TranslatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.translator.TranslatorApplication" />
+      <module name="OOPDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.oopdictionary.translator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordSortApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.wordsortgame.WordSortApplication" />
+      <module name="OOPDictionary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.oopdictionary.mydictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oop.oopdictionary.TranslatorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.TranslatorApplication" />
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
       <module name="OOPDictionary" />
       <extension name="coverage">
         <pattern>
@@ -214,12 +377,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GameApplication" />
+      <item itemvalue="Application.MainMenu1" />
+      <item itemvalue="Application.MyDictApplication" />
+      <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
+      <item itemvalue="Application.WordSortApplication" />
+    </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.MainMenu" />
         <item itemvalue="Application.WordSortApplication" />
         <item itemvalue="Application.WortSortApplication" />
         <item itemvalue="Application.QuizApplication" />
+=======
+        <item itemvalue="Application.MainMenu1" />
+        <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
+        <item itemvalue="Application.MyDictApplication" />
+        <item itemvalue="Application.GameApplication" />
+        <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
       </list>
     </recent_temporary>
   </component>
@@ -235,11 +413,27 @@
       <workItem from="1697083757856" duration="2999000" />
       <workItem from="1697262916294" duration="10313000" />
       <workItem from="1698119213373" duration="4014000" />
+<<<<<<< HEAD
       <workItem from="1701150245854" duration="921000" />
+=======
+      <workItem from="1701222276075" duration="11043000" />
+      <workItem from="1701235725199" duration="6114000" />
+>>>>>>> ddc3eee9a5b117f043db46c049aa24a9b9734f0e
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

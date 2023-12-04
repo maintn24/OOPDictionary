@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane fx:id="panedict" prefHeight="484.0" prefWidth="886.0" style=" -fx-background-color: #FECAD6; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="oop.oopdictionary.menu.Translate1">
+    <children>
+        <TextField layoutX="106.0" layoutY="209.0" prefHeight="133.0" prefWidth="150.0" style="-fx-background-radius: 30;" />
+        <Button layoutX="106.0" layoutY="209.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="150.0" style="-fx-background-radius: 30; -fx-background-color: #6A7E78;" text="ENG" textFill="WHITE">
+            <font>
+                <Font name="Montserrat ExtraBold" size="15.0" />
+            </font>
+        </Button>
+        <TextField layoutX="427.0" layoutY="209.0" prefHeight="133.0" prefWidth="150.0" style="-fx-background-radius: 30;" />
+        <Button layoutX="427.0" layoutY="209.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="150.0" style="-fx-background-radius: 30; -fx-background-color: #EAC48E;" text="VIE" textFill="WHITE">
+            <font>
+                <Font name="Montserrat ExtraBold" size="15.0" />
+            </font>
+        </Button>
+        <Button layoutX="294.0" layoutY="238.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="98.0" style="-fx-background-color: #FECAD6;">
+            <graphic>
+                <ImageView fitHeight="68.0" fitWidth="86.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@images/gggk.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Label layoutX="234.0" layoutY="64.0" text="TRANSLATE" textFill="#6a7e78">
+            <font>
+                <Font name="Montserrat ExtraBold" size="35.0" />
+            </font>
+        </Label>
+    </children>
+
+</AnchorPane>

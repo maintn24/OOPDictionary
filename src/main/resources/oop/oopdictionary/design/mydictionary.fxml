@@ -6,7 +6,7 @@
 <?import javafx.scene.text.Font?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.paetest.Mydictionary">
+            fx:controller="oop.oopdictionary.design.Mydictionary">
     <children>
 
         <AnchorPane fx:id="importdict1" layoutX="60.0" layoutY="46.0" prefHeight="454.0" prefWidth="740.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 50; -fx-background-insets: 10 10 10 10;" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0">
@@ -20,7 +20,7 @@
             <graphic>
                 <ImageView fitHeight="23.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/Picture1.png" />
+                        <Image url="@../Icon/search_sign.png" />
                     </image>
                 </ImageView>
             </graphic>
@@ -30,7 +30,7 @@
             <graphic>
                 <ImageView fitHeight="35.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/oll.png" />
+                        <Image url="@../Icon/plus_sign.png" />
                     </image>
                 </ImageView>
             </graphic>
@@ -39,7 +39,7 @@
             <graphic>
                 <ImageView fitHeight="36.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/opp.png" />
+                        <Image url="@../Icon/delete_sign.png" />
                     </image>
                 </ImageView>
             </graphic>
@@ -48,7 +48,7 @@
             <graphic>
                 <ImageView fitHeight="36.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/ggg.png" />
+                        <Image url="@../Icon/import_sign.png" />
                     </image>
                 </ImageView>
             </graphic>
@@ -57,7 +57,7 @@
             <graphic>
                 <ImageView fitHeight="36.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/uii.png" />
+                        <Image url="@../Icon/export_sign.png" />
                     </image>
                 </ImageView>
             </graphic>
@@ -66,7 +66,7 @@
             <graphic>
                 <ImageView fitHeight="36.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="@images/nmm.png" />
+                        <Image url="@../Icon/print_sign.png" />
                     </image>
                 </ImageView>
             </graphic>

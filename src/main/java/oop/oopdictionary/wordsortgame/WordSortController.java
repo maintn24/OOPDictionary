@@ -7,6 +7,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.paint.Paint;
+import oop.oopdictionary.GameApplication;
 
 
 import java.util.*;
@@ -72,7 +73,7 @@ public class WordSortController {
     @FXML
     protected void onGenerateWord() {
 
-        if(totalOfQuestion == 0) {
+        if(totalOfQuestion == 0) { //game end
             //show Score;
             String s = String.valueOf(totalScore);
             notiText.setTextFill(Paint.valueOf("Green"));;
@@ -83,6 +84,8 @@ public class WordSortController {
 
             finishedButton.setVisible(true);
             answerText.setVisible(false);
+            scoreText.setVisible(false);
+            question.setVisible(false);
         } else {
 
             answerText.setText(null);
@@ -155,5 +158,11 @@ public class WordSortController {
         }
         s.append(list.get(list.size()-1));
         return s;
+    }
+
+    GameApplication app = new GameApplication();
+    @FXML
+    private void switchToGameManager() {
+        app.getInstance().showGameManager();
     }
 }
