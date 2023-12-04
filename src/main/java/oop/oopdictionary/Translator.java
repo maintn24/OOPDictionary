@@ -35,45 +35,4 @@ public class Translator {
         return response.toString();
     }
 
-
-    public static void main(String[] args) throws IOException {
-//        /** gg dich. */
-//        System.out.println("Type");
-//        Scanner sc = new Scanner(System.in);
-//        String text;
-//        text = sc.nextLine();
-//
-//        System.out.println(translate("en", "vi", text));
-
-        /** dich tu dien txt. */
-        DictionaryManagement dictionary = new DictionaryManagement();
-        dictionary.insertFromFile("data_Now.txt"); ///
-        System.out.println("Import success");
-
-        Scanner sc = new Scanner(System.in);
-        String text;
-        String lastWord = "none";
-        String lastWordExplain = "none";
-        do {
-            System.out.print("Lookup: ");
-            text = sc.nextLine();
-            if (text.equals("add")) {
-                System.out.print("nhap tu moi: ");
-                String target = sc.nextLine();
-                System.out.print("nhap nghia: ");
-                String explain = sc.nextLine();
-                dictionary.addWord(target, explain);
-                System.out.println("Add success");
-            } else if (text.equals("delete")){
-                System.out.println("Are you sure you want to delete\n" + lastWord);
-                if (Objects.equals(sc.nextLine(), "y")) {
-                    dictionary.removeWord(lastWord);
-                }
-            }
-            else {
-                System.out.println(dictionary.dictionaryLookUp(text));
-                lastWord = text;
-            }
-        } while (!text.equals("bb"));
-    }
 }

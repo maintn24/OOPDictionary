@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
 <AnchorPane fx:id="contentArea" prefHeight="460.0" prefWidth="740.0" style="-fx-background-color: #D8E0CE; -fx-background-radius: 0;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.oopdictionary.mydictionary.MyDictController">
       <children>
@@ -76,11 +76,11 @@
                   <Image url="@../Icon/translate_box_sign.png" />
                </image>
             </ImageView>
-                <Text fx:id="explanation" layoutX="20.0" layoutY="46.373046875" style="-fx-background-radius: 30; -fx-background-color: white;" wrappingWidth="581.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="14.0">
+                <TextArea fx:id="explanation" layoutX="9.0" layoutY="46.373046875" prefHeight="262.0" prefWidth="598.0" style="-fx-background-radius: 30; -fx-background-color: white;" AnchorPane.leftAnchor="9.0" AnchorPane.topAnchor="14.0">
                <font>
-                  <Font size="30.0" />
+                  <Font size="20.0" />
                </font>
-            </Text>
+            </TextArea>
          </children>
       </AnchorPane>
 

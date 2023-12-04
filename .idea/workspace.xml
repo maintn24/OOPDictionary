@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="707f33a9-951c-47f4-a00a-9b47d46a2538" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/DictionaryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/DictionaryManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/translator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/translator.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/mydictionary/MyDictController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/oop/oopdictionary/mydictionary/MyDictController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/mydictionary/my-dict.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/oop/oopdictionary/mydictionary/my-dict.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +65,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "finaldesign",
-    "last_opened_file_path": "D:/Work/Projects/OOP/OOPDictionaryFinal1",
+    "git-widget-placeholder": "fixed",
+    "last_opened_file_path": "D:/Work/Projects/OOP/OOPDict/src/main/resources/oop/oopdictionary",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -104,13 +104,13 @@
       <recent name="oop.oopdictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.Main" />
+  <component name="RunManager">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.oopdictionary.design.Main1" />
       <module name="OOPDictionary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.oopdictionary.*" />
+          <option name="PATTERN" value="oop.oopdictionary.design.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyDictApplication" />
         <item itemvalue="Application.TranslatorApplication" />
         <item itemvalue="Application.oop.oopdictionary.TranslatorApplication" />
         <item itemvalue="Application.MainMenu1" />
+        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
