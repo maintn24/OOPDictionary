@@ -19,10 +19,10 @@ public class ImportFileController {
     private AnchorPane contentArea;
 
     @FXML
-    Button importButton;
+    private Button importButton;
 
     @FXML
-    TextField file;
+    private TextField file;
 
     Main app = new Main();
 

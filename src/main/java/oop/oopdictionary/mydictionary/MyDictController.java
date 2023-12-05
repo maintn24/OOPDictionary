@@ -13,12 +13,18 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.text.Text;
 import oop.oopdictionary.Main;
+import com.sun.speech.freetts.Voice;
+import com.sun.speech.freetts.VoiceManager;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Objects;
 import java.util.ResourceBundle;
 
 public class MyDictController implements Initializable {
+
+    @FXML
+    private Button speaker;
 
     @FXML
     private AnchorPane contentArea;
@@ -88,7 +94,15 @@ public class MyDictController implements Initializable {
         contentArea.getChildren().removeAll();
         contentArea.getChildren().setAll(fxml);
     }
-
-
-
+    @FXML
+    public void pronounce(ActionEvent event) {
+        if(!Objects.equals(explanation.getText(), "Từ này hiện chưa có")) {
+            System.setProperty("freetts.voices", "com.sun.speech.freetts.en.us.cmu_us_kal.KevinVoiceDirectory");
+            Voice audio = VoiceManager.getInstance().getVoice("kevin16");
+            if (audio != null) {
+                audio.allocate();
+                audio.speak(targetWord.getText());
+            } else throw new IllegalStateException("Cannot find voice: kevin16");
+        }
+    }
 }
