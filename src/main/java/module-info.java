@@ -14,6 +14,7 @@ module oop.oopdictionary {
     requires com.almasb.fxgl.all;
     requires java.logging;
     requires com.jfoenix;
+    requires freetts;
 
 
     exports oop.oopdictionary.quizgame;

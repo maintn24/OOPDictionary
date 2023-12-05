@@ -18,16 +18,16 @@ public class AddWordController {
     @FXML
     private AnchorPane contentArea;
     @FXML
-    Button finish;
+    private Button finish;
 
     @FXML
-    TextField targetWord;
+    private TextField targetWord;
 
     @FXML
-    TextField explanation;
+    private TextField explanation;
 
-    String target;
-    String explain;
+    private String target;
+    private String explain;
 
     Main app = new Main();
 

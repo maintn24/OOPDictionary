@@ -41,6 +41,15 @@
                   <Font name="Montserrat Regular" size="16.0" />
                </font>
             </TextArea>
+            <Button fx:id="speaker1" layoutX="244.0" layoutY="225.0" mnemonicParsing="false" onAction="#pronounceEng" prefHeight="29.0" prefWidth="30.0" style="-fx-background-color: white; -fx-background-radius: 50;" AnchorPane.leftAnchor="244.0" AnchorPane.topAnchor="225.0">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icon/speaker_sign.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
          </children>
       </AnchorPane>
       <AnchorPane layoutX="416.0" layoutY="148.0" maxHeight="274.0" maxWidth="290.0" minHeight="50.0" minWidth="50.0" prefHeight="258.0" prefWidth="290.0">
@@ -59,6 +68,15 @@
                <font>
                   <Font name="Montserrat ExtraBold" size="17.0" />
                </font>
+            </Button>
+            <Button fx:id="speaker2" layoutX="244.0" layoutY="225.0" mnemonicParsing="false" onAction="#pronounceVie" prefHeight="29.0" prefWidth="30.0" style="-fx-background-color: white; -fx-background-radius: 50;">
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Icon/speaker_sign.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
          </children>
       </AnchorPane>
